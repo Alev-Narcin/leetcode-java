@@ -1,0 +1,22 @@
+package org.example;
+
+import org.example.solutions.*;
+
+public class Main {
+    public static void main(String[] args) {
+        IsPalindromeSol isPalindrome = new IsPalindromeSol();
+        RomanToIntSol romanToInt = new RomanToIntSol();
+        LongestCommonPrefixSol longestCommonPrefix = new LongestCommonPrefixSol();
+        IsValidToSol isValidTo = new IsValidToSol();
+        IsValidToSol2 isValidTo1 = new IsValidToSol2();
+        IsValidToStackSol isValidToStack = new IsValidToStackSol();
+
+//        System.out.println(isPalindrome.isPalindromeInt(121));
+//        System.out.println(isPalindrome.isPalindromeString(125));
+//        System.out.println(romanToInt.RomanToInt("LVIII"));
+//        System.out.println(longestCommonPrefix.longestCommonPrefix(new String[]{"flower", "flow", "flight"}));
+//        System.out.println(isValidTo.isValidTo("{{{{{{"));
+//        System.out.println(isValidTo1.isValidTo1("{}"));
+        System.out.println(isValidToStack.isValidToStack("{}}"));
+    }
+}

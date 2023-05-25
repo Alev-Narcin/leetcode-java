@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body><h1>My First Web Page</h1>
+<script>
+    const IsValidTo = (value) => {
+        const items = [];
+        debugger;
+        for (const val of value) {
+            if (val === '{' || val === '[' || val === '(') {
+                items.push(val);
+            } else {
+                if (!items) {
+                    return false;
+                } else {
+                    if (val === '}' && items[items.length - 1] === '{') {
+                        items.pop();
+                    } else if (val === ']' && items[items.length - 1] === '[') {
+                        items.pop();
+                    } else if (val === ')' && items[items.length - 1] === '(') {
+                        items.pop();
+                    } else {
+                        return false;
+                    }
+                }
+            }
+        }
+        if (items.length > 0) {
+            return false;
+        }
+        return true;
+    }
+    IsValidTo('{()}'); </script>
+</body>
+</html>
