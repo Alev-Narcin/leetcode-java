@@ -2,6 +2,8 @@ package org.example;
 
 import org.example.solutions.*;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         IsPalindromeSol isPalindrome = new IsPalindromeSol();
@@ -24,6 +26,15 @@ public class Main {
         ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(4)));
 
         mergeTwoLists.mergeTwoLists(list1, list2);*/
+
+        /*RemoveDuplicatesSol removeDuplicates = new RemoveDuplicatesSol();
+
+        System.out.println(removeDuplicates.removeDuplicates(new int[]{1,2,2,3,4,4,5,6}));
+        System.out.println(removeDuplicates.removeDuplicates2(new int[]{1,2,2,3,4,4,5,6}));*/
+
+
+
+
     }
 
 
