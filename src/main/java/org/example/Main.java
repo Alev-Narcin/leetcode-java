@@ -34,8 +34,8 @@ public class Main {
        /* FirstOccureInHaystackSol firstOccureInHaystack = new FirstOccureInHaystackSol();
         System.out.println(firstOccureInHaystack.strStr("bsabutsad", "sad"));*/
 
-        SearchInsertSol searchInsert = new SearchInsertSol();
-        System.out.println(searchInsert.searchInsert(new int[]{1, 2, 3, 6, 7}, 0));
+        /*SearchInsertSol searchInsert = new SearchInsertSol();
+        System.out.println(searchInsert.searchInsert(new int[]{1, 2, 3, 6, 7}, 0));*/
 
     }
 
