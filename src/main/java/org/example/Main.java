@@ -32,7 +32,7 @@ public class Main {
         System.out.println(removeElement.removeElement(new int[]{1, 2, 3, 3, 5, 7, 3}, 3));*/
 
        /* FirstOccureInHaystackSol firstOccureInHaystack = new FirstOccureInHaystackSol();
-        System.out.println(firstOccureInHaystack.strStr1("bsabutsad", "sad"));*/
+        System.out.println(firstOccureInHaystack.strStr("bsabutsad", "sad"));*/
 
 
     }
