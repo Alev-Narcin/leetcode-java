@@ -14,7 +14,7 @@ public class SearchInsertSol {
                 return nums.length;
             }
         }
-        return -9999;
+        return -1;
     }
 
 }
