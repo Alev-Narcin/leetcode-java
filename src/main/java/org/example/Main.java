@@ -37,6 +37,12 @@ public class Main {
         /*SearchInsertSol searchInsert = new SearchInsertSol();
         System.out.println(searchInsert.searchInsert(new int[]{1, 2, 3, 6, 7}, 0));*/
 
+        /*LengthOfLastWordSol lengthOfWord = new LengthOfLastWordSol();
+        System.out.println(lengthOfWord.lengthOfLastWord("   fly me   to   the moon   "));  //last
+        System.out.println(lengthOfWord.lengthOfLongestWord("alev narcin      sa id addadas"));  //long
+        System.out.println(lengthOfWord.lengthOfLongestWord2("alev narcin      sa id addadas"));  //long
+        System.out.println(lengthOfWord.lengthOfLongestWord3("alev narcin      sa id addadas"));  //long*/
+
     }
 
 
