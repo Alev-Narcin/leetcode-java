@@ -5,10 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 
 public class IsValidToSol2 {
-
-    public boolean isValidTo1(String value) {
+    public boolean isValidTo2(String value) {
         char[] chars = value.toCharArray();
-
         HashMap<Character, Character> map = new HashMap<>() {{
             put('}', '{');
             put(']', '[');
