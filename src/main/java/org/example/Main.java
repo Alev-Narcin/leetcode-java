@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.solutions.PlusOneSol;
+
 public class Main {
     public static void main(String[] args) {
         /*IsPalindromeSol isPalindrome = new IsPalindromeSol();
@@ -33,8 +35,8 @@ public class Main {
         /*RemoveElementSol removeElement = new RemoveElementSol();
         System.out.println(removeElement.removeElement(new int[]{1, 2, 3, 3, 5, 7, 3}, 3));*/
 
-       /* FirstOccureInHaystackSol firstOccureInHaystack = new FirstOccureInHaystackSol();
-        System.out.println(firstOccureInHaystack.strStr("bsabutsad", "sad"));*/
+        /*FirstOccureInHaystackSol firstOccurInHaystack = new FirstOccureInHaystackSol();
+        System.out.println(firstOccurInHaystack.strStr("bsabutsad", "sad"));*/
 
         /*SearchInsertSol searchInsert = new SearchInsertSol();
         System.out.println(searchInsert.searchInsert(new int[]{1, 2, 3, 6, 7}, 0));*/
@@ -45,6 +47,8 @@ public class Main {
         System.out.println(lengthOfWord.lengthOfLongestWord2("alev narcin      sa id addadas"));  //long
         System.out.println(lengthOfWord.lengthOfLongestWord3("alev narcin      sa id addadas"));  //long*/
 
+        PlusOneSol plusOne = new PlusOneSol();
+        System.out.println(plusOne.plusOne(new int[]{1,2,3}));
 
     }
 
