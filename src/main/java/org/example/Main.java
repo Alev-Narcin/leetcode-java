@@ -1,9 +1,5 @@
 package org.example;
 
-import org.example.solutions.PlusOneSol;
-
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
         /*IsPalindromeSol isPalindrome = new IsPalindromeSol();
@@ -51,6 +47,11 @@ public class Main {
 
         /*PlusOneSol plusOne = new PlusOneSol();
         System.out.println(Arrays.toString(plusOne.plusOne2(new int[]{8, 9, 9})));*/
+
+        /*AddBinarySol addBinary = new AddBinarySol();
+        System.out.println(addBinary.addBinary("11", "1"));
+        System.out.println(addBinary.addBinary2("11", "1"));
+        System.out.println(addBinary.addBinary3("11", "1"));*/
 
     }
 
