@@ -49,9 +49,8 @@ public class Main {
         System.out.println(lengthOfWord.lengthOfLongestWord2("alev narcin      sa id addadas"));  //long
         System.out.println(lengthOfWord.lengthOfLongestWord3("alev narcin      sa id addadas"));  //long*/
 
-        PlusOneSol plusOne = new PlusOneSol();
-//        System.out.println(Arrays.toString(plusOne.plusOne(new int[]{1, 2, 3})));
-        System.out.println(Arrays.toString(plusOne.plusOne2(new int[]{9, 9, 9, 9})));
+        /*PlusOneSol plusOne = new PlusOneSol();
+        System.out.println(Arrays.toString(plusOne.plusOne2(new int[]{8, 9, 9})));*/
 
     }
 
