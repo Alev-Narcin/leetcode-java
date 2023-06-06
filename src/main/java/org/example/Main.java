@@ -50,8 +50,7 @@ public class Main {
 
         /*AddBinarySol addBinary = new AddBinarySol();
         System.out.println(addBinary.addBinary("11", "1"));
-        System.out.println(addBinary.addBinary2("11", "1"));
-        System.out.println(addBinary.addBinary3("11", "1"));*/
+        System.out.println(addBinary.addBinary2("11", "1"));*/
 
     }
 
