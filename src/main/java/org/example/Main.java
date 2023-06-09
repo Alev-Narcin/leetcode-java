@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.solutions.SquareRootSol;
+
 public class Main {
     public static void main(String[] args) {
         /*IsPalindromeSol isPalindrome = new IsPalindromeSol();
@@ -51,6 +53,10 @@ public class Main {
         /*AddBinarySol addBinary = new AddBinarySol();
         System.out.println(addBinary.addBinary("11", "1"));
         System.out.println(addBinary.addBinary2("11", "1"));*/
+
+        /*SquareRootSol square = new SquareRootSol();
+        System.out.println(square.squareRoot(2147395599));
+        System.out.println(square.squareRoot2(2147395599));*/
 
     }
 
