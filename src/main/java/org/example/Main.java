@@ -1,6 +1,8 @@
 package org.example;
 
 import org.example.solutions.InterviewQuestionRebuildMessage;
+import org.example.solutions.mergetwolists.DeleteDuplicatesSol;
+import org.example.solutions.mergetwolists.ListNode;
 
 public class Main {
     public static void main(String[] args) {
@@ -61,11 +63,12 @@ public class Main {
         /*ClimbStairsSol climbStairs = new ClimbStairsSol();
         System.out.println(climbStairs.climbStairs(5));*/
 
-//        DeleteDuplicatesSol deleteDuplicates = new DeleteDuplicatesSol();
-//        System.out.println(deleteDuplicates.deleteDuplicates(new ListNode(1, new ListNode(2, new ListNode(2, new ListNode(3))))));
+        /*InterviewQuestionRebuildMessage rebuildMessage = new InterviewQuestionRebuildMessage();
+        System.out.println(rebuildMessage.rebuildMessage(new String[]{"*====#", "X-+-+-+-+-+-Z", "#______X","A.........*",}));*/
 
-        InterviewQuestionRebuildMessage rebuildMessage = new InterviewQuestionRebuildMessage();
-        System.out.println(rebuildMessage.rebuildMessage(new String[]{"*====#", "X-+-+-+-+-+-Z", "#______X","A.........*",}));
+        DeleteDuplicatesSol deleteDuplicates = new DeleteDuplicatesSol();
+        System.out.println(deleteDuplicates.deleteDuplicates(new ListNode(1, new ListNode(2, new ListNode(2, new ListNode(3))))));
+
 
     }
 
