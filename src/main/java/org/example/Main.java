@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.solutions.SquareRootSol;
+import org.example.solutions.InterviewQuestionRebuildMessage;
 
 public class Main {
     public static void main(String[] args) {
@@ -57,6 +57,15 @@ public class Main {
         /*SquareRootSol square = new SquareRootSol();
         System.out.println(square.squareRoot(2147395599));
         System.out.println(square.squareRoot2(2147395599));*/
+
+        /*ClimbStairsSol climbStairs = new ClimbStairsSol();
+        System.out.println(climbStairs.climbStairs(5));*/
+
+//        DeleteDuplicatesSol deleteDuplicates = new DeleteDuplicatesSol();
+//        System.out.println(deleteDuplicates.deleteDuplicates(new ListNode(1, new ListNode(2, new ListNode(2, new ListNode(3))))));
+
+        InterviewQuestionRebuildMessage rebuildMessage = new InterviewQuestionRebuildMessage();
+        System.out.println(rebuildMessage.rebuildMessage(new String[]{"*====#", "X-+-+-+-+-+-Z", "#______X","A.........*",}));
 
     }
 
