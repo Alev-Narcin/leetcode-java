@@ -64,10 +64,10 @@ public class Main {
         System.out.println(climbStairs.climbStairs(5));*/
 
         /*InterviewQuestionRebuildMessage rebuildMessage = new InterviewQuestionRebuildMessage();
-        System.out.println(rebuildMessage.rebuildMessage(new String[]{"*====#", "X-+-+-+-+-+-Z", "#______X","A.........*",}));*/
+        System.out.println(rebuildMessage.rebuildMessage(new String[]{"*====#", "#______X", "A.........*", "X-+-+-+-+-+-Z"}));*/
 
-        DeleteDuplicatesSol deleteDuplicates = new DeleteDuplicatesSol();
-        System.out.println(deleteDuplicates.deleteDuplicates(new ListNode(1, new ListNode(2, new ListNode(2, new ListNode(3))))));
+        /*DeleteDuplicatesSol deleteDuplicates = new DeleteDuplicatesSol();
+        System.out.println(deleteDuplicates.deleteDuplicates(new ListNode(1, new ListNode(2, new ListNode(2, new ListNode(3))))));*/
 
 
     }
