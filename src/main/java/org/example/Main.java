@@ -1,9 +1,5 @@
 package org.example;
 
-import org.example.solutions.InterviewQuestionRebuildMessage;
-import org.example.solutions.mergetwolists.DeleteDuplicatesSol;
-import org.example.solutions.mergetwolists.ListNode;
-
 public class Main {
     public static void main(String[] args) {
         /*IsPalindromeSol isPalindrome = new IsPalindromeSol();
@@ -69,8 +65,7 @@ public class Main {
         /*DeleteDuplicatesSol deleteDuplicates = new DeleteDuplicatesSol();
         System.out.println(deleteDuplicates.deleteDuplicates(new ListNode(1, new ListNode(2, new ListNode(2, new ListNode(3))))));*/
 
-
+        /*MergeSorted2ArraySol mergeSorted2Array = new MergeSorted2ArraySol();
+        mergeSorted2Array.mergeSorted2Array(new int[]{1, 2, 3, 0, 0, 0}, 3, new int[]{2, 5, 6}, 3);*/
     }
-
-
 }
