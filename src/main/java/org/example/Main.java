@@ -66,6 +66,7 @@ public class Main {
         System.out.println(deleteDuplicates.deleteDuplicates(new ListNode(1, new ListNode(2, new ListNode(2, new ListNode(3))))));*/
 
         /*MergeSorted2ArraySol mergeSorted2Array = new MergeSorted2ArraySol();
+        mergeSorted2Array.mergeSorted2Array1(new int[]{1, 2, 3, 0, 0, 0}, 3, new int[]{2, 5, 6}, 3);
         mergeSorted2Array.mergeSorted2Array(new int[]{1, 2, 3, 0, 0, 0}, 3, new int[]{2, 5, 6}, 3);*/
     }
 }
